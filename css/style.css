@@ -1,0 +1,132 @@
+nav {
+  background: #000000; }
+  nav .nav-item {
+    padding-left: 1rem; }
+    nav .nav-item .nav-link {
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.685); }
+
+.carousel-item {
+  height: 450px; }
+
+.carousel-img-1 {
+  background: url(../img/slide-img-1.jpg);
+  background-size: cover; }
+  .carousel-img-1 .overlay {
+    height: 450px;
+    background: rgba(0, 0, 0, 0.4); }
+
+.carousel-img-2 {
+  background: url(../img/slide-img-2.jpg);
+  background-size: cover; }
+  .carousel-img-2 .overlay {
+    height: 450px;
+    background: rgba(0, 0, 0, 0.4); }
+
+.carousel-img-3 {
+  background: url(../img/slide-img-3.jpg);
+  background-size: cover; }
+  .carousel-img-3 .overlay {
+    height: 450px;
+    background: rgba(0, 0, 0, 0.4); }
+
+#home-icon .fa {
+  font-size: 50px; }
+
+#home-icon p {
+  margin-bottom: 0; }
+
+#home-ready {
+  position: relative;
+  background: url(../img/home-ready.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 250px; }
+  #home-ready .dark-overlay {
+    position: absolute;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3); }
+
+#view-video {
+  position: relative;
+  background: url(../img/beautiful-bangladesh.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 250px; }
+  #view-video .dark-overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+    #view-video .dark-overlay .fa {
+      font-size: 60px;
+      color: #ff0000; }
+
+#photo-gal img {
+  height: 250px;
+  width: 100%; }
+
+#bottom {
+  background-color: #000; }
+
+#about-top {
+  background: url(../img/slide-img-1.jpg);
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
+#about-icon .fa {
+  font-size: 50px;
+  margin-bottom: 20px; }
+
+#testimional .slick-prev:before, #testimional .slick-next:before {
+  color: black; }
+
+#service-cover {
+  position: relative;
+  background: url(../img/slide-img-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 200px; }
+  #service-cover .dark-overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%; }
+
+#blog-cover {
+  background: url(../img/slide-img-2.jpg);
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed; }
+
+#blog-post img {
+  height: 250px; }
+
+#contact-cover {
+  background: url(../img/home-ready.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed; }
+
+@media (max-width: 767px) {
+  .nav-item {
+    padding-left: 0  !important; } }
+
+@media (max-width: 480px) {
+  #Mycarousel h2 {
+    font-size: 2.5rem; }
+  #home-ready {
+    min-height: 350px; } }
